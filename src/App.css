@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: "Mali", sans-serif;
+}
+
+body {
+  background: #FDFAF6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.container {
+  margin: 30px auto;
+  width: 350px;
+}
+
+.horizontal-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: beige;
+  text-align: center;
+
+  li {
+      display: inline-block;
+  }
+
+  /* Link ถูกแปลงเป็นแท็ก a */
+  a {
+      text-decoration: none;
+      padding: 16px;
+      display: block;
+  }
+}
